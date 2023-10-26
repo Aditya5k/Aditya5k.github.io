@@ -230,18 +230,33 @@ nav a:hover {
 
     #home .overlay {
         left: 10px;
+        text-align: center; /* Center text in mobile */
+    }
+
+    #home h1 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    #home p {
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+
+    .btn-donate {
+        width: 100%; /* Make the button full width */
     }
 
     #about,
     #certificates,
     #contact {
-        padding: 20px; /* Adjust padding for smaller screens */
+        padding: 20px;
     }
 
     .about-content,
     .certificate-container,
     .contact-content,
     .contact-image {
-        max-width: 100%; /* Make content take full width on smaller screens */
+        max-width: 100%;
     }
 }
